@@ -1,0 +1,19 @@
+Part 1: 
+Which tables have natural keys and which don't? Explain why you made such a decision.
+
+Natural keys:
+- Employee(fname)
+- Employee(lname)
+
+- Airplane(model)
+- Airplane(capacity)
+- Airplane(weight)
+
+These tables have natural keys because these are attributes that the Employee and Airplane already
+have, without having been created by the user or the database. Employees are people who all have first and last name,
+while Airplane is an object that has a model, capacity and weight already. 
+
+No natural keys: Maintenance, Plane_Service
+
+These two tables do not have natural keys because these are schemas that are created, containing all or mostly
+referential keys. The different attributes are items that are used in conjunction with the Airplane and Employee schemas.
